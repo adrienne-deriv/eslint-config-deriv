@@ -19,11 +19,6 @@ jobs:
       - run: |
           echo ${{hashFiles('./package-lock.json')}}
 
-      - name: Install dependencies
-        run: npm install
-
-      - name: Running tests and coverage report
-        run: npm run ci
 
       - name: Publish to NPM
         uses: JS-DevTools/npm-publish@v3
