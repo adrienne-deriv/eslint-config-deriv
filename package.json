@@ -1,5 +1,5 @@
 {
-  "name": "test-eslint-config-v2",
+  "name": "eslint-config-test-v2",
   "version": "2.1.0-beta.2",
   "description": "Test",
   "main": "index.js",
